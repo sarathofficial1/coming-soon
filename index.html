@@ -1,17 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Coming Soon</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coming Soon - Trioraa</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 100px; background: #f4f4f4; }
-    h1 { font-size: 48px; margin-bottom: 10px; }
-    p { font-size: 24px; color: #555; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .logo {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .instagram {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .instagram img.qr {
+      width: 150px;
+      height: 150px;
+      border: 2px solid #000;
+      border-radius: 10px;
+    }
+
+    .instagram a {
+      color: #e1306c;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
   </style>
 </head>
 <body>
-  <h1>Coming Soon</h1>
-  <p>Our website is under construction. Stay tuned!</p>
+
+  <!-- Logo -->
+  <img src="logo.png" alt="Trioraa Logo" class="logo" />
+
+  <!-- Heading -->
+  <h1>We're Launching Soon!</h1>
+  <p>Stay connected with us on Instagram.</p>
+
+  <!-- Instagram Section -->
+  <div class="instagram">
+    <!-- QR Code for Instagram -->
+    <img src="qr-code.png" alt="Instagram QR Code" class="qr" />
+    
+    <!-- Instagram Handle -->
+    <a href="https://instagram.com/your_instagram_id" target="_blank">
+      @your_instagram_id
+    </a>
+  </div>
+
+  <footer>
+    © 2025 Trioraa. All rights reserved.
+  </footer>
+
 </body>
 </html>
